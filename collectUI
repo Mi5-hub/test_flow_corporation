@@ -1,0 +1,18 @@
+2022-01-21T16:12:36: Error: /home/randy/randy/chart_params_setter_ui/views/index.ejs:2
+2022-01-21T16:12:36:     1| <!-- <script src="js/collectsScript.js"></script> -->
+2022-01-21T16:12:36:  >> 2| <%-include('./indexScript')%>
+2022-01-21T16:12:36:     3| 
+2022-01-21T16:12:36:     4| 
+2022-01-21T16:12:36:     5| <div id="alfred_chart_container">
+2022-01-21T16:12:36: 
+2022-01-21T16:12:36: Could not find the include file "./indexScript"
+2022-01-21T16:12:36:     at getIncludePath (/home/randy/randy/chart_params_setter_ui/node_modules/ejs/lib/ejs.js:165:13)
+2022-01-21T16:12:36:     at includeFile (/home/randy/randy/chart_params_setter_ui/node_modules/ejs/lib/ejs.js:291:19)
+2022-01-21T16:12:36:     at include (/home/randy/randy/chart_params_setter_ui/node_modules/ejs/lib/ejs.js:680:16)
+2022-01-21T16:12:36:     at eval (/home/randy/randy/chart_params_setter_ui/views/index.ejs:12:16)
+2022-01-21T16:12:36:     at index (/home/randy/randy/chart_params_setter_ui/node_modules/ejs/lib/ejs.js:682:17)
+2022-01-21T16:12:36:     at tryHandleCache (/home/randy/randy/chart_params_setter_ui/node_modules/ejs/lib/ejs.js:254:36)
+2022-01-21T16:12:36:     at View.exports.renderFile [as engine] (/home/randy/randy/chart_params_setter_ui/node_modules/ejs/lib/ejs.js:485:10)
+2022-01-21T16:12:36:     at View.render (/home/randy/randy/chart_params_setter_ui/node_modules/express/lib/view.js:135:8)
+2022-01-21T16:12:36:     at tryRender (/home/randy/randy/chart_params_setter_ui/node_modules/express/lib/application.js:640:10)
+2022-01-21T16:12:36:     at Function.render (/home/randy/randy/chart_params_setter_ui/node_modules/express/lib/application.js:592:3)
